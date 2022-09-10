@@ -70,17 +70,14 @@ const Product = props => {
               <span className="text-gray-500">Availability:</span>{' '}
               <span className="font-semibold">In stock</span>
             </p>
-
-            {/* Price */}
             <div className="mt-8 border-t pt-4">
               <p className="text-gray-500">Price:</p>
               <p className="text-xl font-semibold">
                 {formatCurrency(props.price)}
               </p>
             </div>
-
             <div className="mt-4 border-t pt-4">
-              {/* Quantity */}
+                 
               <p className="text-gray-500">Quantity:</p>
               <div className="mt-1 flex items-center space-x-3">
                 <button
@@ -99,7 +96,6 @@ const Product = props => {
                 </button>
               </div>
 
-              {/* Add to cart button */}
               <button
                 type="button"
                 onClick={handleOnAddToCart}
