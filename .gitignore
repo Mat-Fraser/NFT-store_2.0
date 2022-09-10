@@ -1,0 +1,3 @@
+
+.node-modules
+.env (All the stripe key variables store inside it)
