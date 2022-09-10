@@ -91,7 +91,6 @@ const Cart = () => {
                   </a>
                 </Link>
 
-                {/* Price + Actions */}
                 <div className="flex items-center">
                   {/* Quantity */}
                   <div className="flex items-center space-x-3">
